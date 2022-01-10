@@ -2234,16 +2234,16 @@ def convert():
                         group_time = 110
                         if (zn >= 1): #if (zn >= min_secs_101)
                             zn0.append('+')
-                        elif (zn > 0):
-                            zn0.append('б')
+                        #elif (zn > 0):
+                            #zn0.append('б')
                         else:
                             zn0.append('н')
                     elif (dict_time[x] >= 50):
                         group_time = 50
                         if (zn >= 1): #(zn >= min_secs_41):
                             zn0.append('+')
-                        elif (zn > 0):
-                            zn0.append('б')
+                        #elif (zn > 0):
+                            #zn0.append('б')
                         else:
                             zn0.append('н')
                 else:
